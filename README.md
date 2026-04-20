@@ -190,7 +190,7 @@ sudo make clean
 ## 6. Scheduler Experiment Results
 
 To observe Linux CFS behavior, we ran a "cage match" on a single CPU core. We executed two `cpu_hog` workloads simultaneously, each running for 15 seconds. 
-
+(CPU keeps spinning continously to exhibit hog)
 * `fast_hog`: nice `-20` (Maximum priority)
 * `slow_hog`: nice `19` (Minimum priority)
 
